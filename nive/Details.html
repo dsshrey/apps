@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Details</title>
+    
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+    
+    <style>
+    
+    body{
+    
+    font-family: Calibri, Helvetica, sans-serif;
+    
+    background-color: pink;
+    
+    }
+    
+    </style>
+    
+    </head>
+    
+    <body>
+    
+
+    
+    <form action="Registration.html">
+    
+    <h1>Thank you for Registration</h1>
+    
+    Details.html
+    
+    Computer Science & Engineering – 20CS52I
+    
+    Your Name is:<p id="name"></p><br>
+    
+    Your email is:<p id="email"></p><br>
+    
+    Your address is:<p id="address"></p>
+    
+    Your choosen pathway-course is:<p
+    id="course"></p>
+    
+    <script>
+    
+    document.getElementById("name").innerHTML =
+    localStorage.getItem("name");
+    
+  
+    
+    document.getElementById("address").innerHTML =
+    localStorage.getItem("address");
+    
+    document.getElementById("course").innerHTML =
+    localStorage.getItem("course");
+    
+    </script>
+    
+    </form>
+    
+
+    
+    </body>
+
+</html>
